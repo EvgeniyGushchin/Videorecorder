@@ -25,7 +25,8 @@ VideoRecorder *recorder = [[VideoRecorder alloc]initWithFrames:frameArray andLib
 frameArray  - it is an array of VideoFrameData objects.
 
 VideoFrameData - it is an object, that contains information about video frame;
-presentationTime - it is a CMTime at which frame should appear at video;
+
+- presentationTime - it is a CMTime at which frame should appear at video;
 
 Example: 
 presentationTime = CMTimeMake(0, 1); - frame will be presented at start
@@ -36,6 +37,6 @@ second will be presented at 3 second and third will be presented at 8 second (0 
 of videofile will be 5 seconds (last frame will has duration == 0). If you want to set not null duration for 
 last frame, then you should add addtional last frame with same image and time which will be equal to duration time.
 
-img  - UIImage;
-libraryAssetURL - url of image in ALAssetsLibrary
-imageLink - link on image eg. in Documents; 
+- img  - UIImage;
+- libraryAssetURL - url of image in ALAssetsLibrary
+- imageLink - link on image eg. in Documents; 
