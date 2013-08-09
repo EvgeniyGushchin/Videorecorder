@@ -34,7 +34,7 @@ presentationTime = CMTimeMake(3, 1); - frame will be presented after three secon
 
 If we have three frames with times (0, 1), (3, 1) and (5, 1), then first frame will be presented at start,
 second will be presented at 3 second and third will be presented at 8 second (0 + 3 + 5). Total duration
-of videofile will be 5 seconds (last frame will has duration == 0). If you want to set not null duration for 
+of videofile will be 8 seconds (last frame will has duration == 0). If you want to set not null duration for 
 last frame, then you should add addtional last frame with same image and time which will be equal to duration time.
 
 - img  - UIImage;
