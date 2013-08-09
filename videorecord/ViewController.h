@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "VideoRecorder.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<VideoRecorderProtocol>
+@property (weak, nonatomic) IBOutlet UILabel *progressLabel;
+- (IBAction)record:(id)sender;
+- (IBAction)addButton:(id)sender;
 
 @end

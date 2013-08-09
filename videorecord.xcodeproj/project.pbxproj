@@ -18,6 +18,17 @@
 		652710781798FD92008087FD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 652710771798FD92008087FD /* Default-568h@2x.png */; };
 		6527107B1798FD92008087FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6527107A1798FD92008087FD /* ViewController.m */; };
 		6527107E1798FD92008087FD /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6527107C1798FD92008087FD /* ViewController.xib */; };
+		652710861798FFBB008087FD /* VideoRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 652710851798FFBB008087FD /* VideoRecorder.m */; };
+		6584887C17990271009D5AEE /* UIImage+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 6584887B17990271009D5AEE /* UIImage+Extras.m */; };
+		6584887F17990306009D5AEE /* VideoFrameData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6584887E17990306009D5AEE /* VideoFrameData.m */; };
+		6584888217990323009D5AEE /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 6584888117990323009D5AEE /* ALAssetsLibrary+CustomPhotoAlbum.m */; };
+		658488841799066B009D5AEE /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658488831799066B009D5AEE /* AssetsLibrary.framework */; };
+		6584888617990EEF009D5AEE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6584888517990EEF009D5AEE /* AVFoundation.framework */; };
+		658488891799411D009D5AEE /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658488881799411D009D5AEE /* CoreVideo.framework */; };
+		6584888B1799414B009D5AEE /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6584888A1799414B009D5AEE /* CoreMedia.framework */; };
+		65E094EA179CF99200083ABB /* img1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 65E094E9179CF99200083ABB /* img1.jpeg */; };
+		65E094EC179CF99C00083ABB /* img2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 65E094EB179CF99C00083ABB /* img2.jpeg */; };
+		65E094EE179CF9A800083ABB /* img3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 65E094ED179CF9A800083ABB /* img3.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +48,21 @@
 		652710791798FD92008087FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6527107A1798FD92008087FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6527107D1798FD92008087FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		652710841798FFBB008087FD /* VideoRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoRecorder.h; sourceTree = "<group>"; };
+		652710851798FFBB008087FD /* VideoRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoRecorder.m; sourceTree = "<group>"; };
+		6584887A17990271009D5AEE /* UIImage+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extras.h"; sourceTree = "<group>"; };
+		6584887B17990271009D5AEE /* UIImage+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extras.m"; sourceTree = "<group>"; };
+		6584887D17990306009D5AEE /* VideoFrameData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoFrameData.h; sourceTree = "<group>"; };
+		6584887E17990306009D5AEE /* VideoFrameData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoFrameData.m; sourceTree = "<group>"; };
+		6584888017990323009D5AEE /* ALAssetsLibrary+CustomPhotoAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+CustomPhotoAlbum.h"; sourceTree = "<group>"; };
+		6584888117990323009D5AEE /* ALAssetsLibrary+CustomPhotoAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+CustomPhotoAlbum.m"; sourceTree = "<group>"; };
+		658488831799066B009D5AEE /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		6584888517990EEF009D5AEE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		658488881799411D009D5AEE /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		6584888A1799414B009D5AEE /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		65E094E9179CF99200083ABB /* img1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img1.jpeg; sourceTree = "<group>"; };
+		65E094EB179CF99C00083ABB /* img2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img2.jpeg; sourceTree = "<group>"; };
+		65E094ED179CF9A800083ABB /* img3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img3.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +70,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6584888B1799414B009D5AEE /* CoreMedia.framework in Frameworks */,
+				658488891799411D009D5AEE /* CoreVideo.framework in Frameworks */,
+				6584888617990EEF009D5AEE /* AVFoundation.framework in Frameworks */,
+				658488841799066B009D5AEE /* AssetsLibrary.framework in Frameworks */,
 				652710621798FD92008087FD /* UIKit.framework in Frameworks */,
 				652710641798FD92008087FD /* Foundation.framework in Frameworks */,
 				652710661798FD92008087FD /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +86,8 @@
 		652710551798FD92008087FD = {
 			isa = PBXGroup;
 			children = (
+				6584888A1799414B009D5AEE /* CoreMedia.framework */,
+				658488881799411D009D5AEE /* CoreVideo.framework */,
 				652710671798FD92008087FD /* videorecord */,
 				652710601798FD92008087FD /* Frameworks */,
 				6527105F1798FD92008087FD /* Products */,
@@ -73,6 +105,8 @@
 		652710601798FD92008087FD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6584888517990EEF009D5AEE /* AVFoundation.framework */,
+				658488831799066B009D5AEE /* AssetsLibrary.framework */,
 				652710611798FD92008087FD /* UIKit.framework */,
 				652710631798FD92008087FD /* Foundation.framework */,
 				652710651798FD92008087FD /* CoreGraphics.framework */,
@@ -89,6 +123,17 @@
 				6527107A1798FD92008087FD /* ViewController.m */,
 				6527107C1798FD92008087FD /* ViewController.xib */,
 				652710681798FD92008087FD /* Supporting Files */,
+				652710841798FFBB008087FD /* VideoRecorder.h */,
+				652710851798FFBB008087FD /* VideoRecorder.m */,
+				6584887A17990271009D5AEE /* UIImage+Extras.h */,
+				6584887B17990271009D5AEE /* UIImage+Extras.m */,
+				6584887D17990306009D5AEE /* VideoFrameData.h */,
+				6584887E17990306009D5AEE /* VideoFrameData.m */,
+				6584888017990323009D5AEE /* ALAssetsLibrary+CustomPhotoAlbum.h */,
+				6584888117990323009D5AEE /* ALAssetsLibrary+CustomPhotoAlbum.m */,
+				65E094E9179CF99200083ABB /* img1.jpeg */,
+				65E094EB179CF99C00083ABB /* img2.jpeg */,
+				65E094ED179CF9A800083ABB /* img3.jpeg */,
 			);
 			path = videorecord;
 			sourceTree = "<group>";
@@ -163,6 +208,9 @@
 				652710761798FD92008087FD /* Default@2x.png in Resources */,
 				652710781798FD92008087FD /* Default-568h@2x.png in Resources */,
 				6527107E1798FD92008087FD /* ViewController.xib in Resources */,
+				65E094EA179CF99200083ABB /* img1.jpeg in Resources */,
+				65E094EC179CF99C00083ABB /* img2.jpeg in Resources */,
+				65E094EE179CF9A800083ABB /* img3.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +224,10 @@
 				6527106E1798FD92008087FD /* main.m in Sources */,
 				652710721798FD92008087FD /* AppDelegate.m in Sources */,
 				6527107B1798FD92008087FD /* ViewController.m in Sources */,
+				652710861798FFBB008087FD /* VideoRecorder.m in Sources */,
+				6584887C17990271009D5AEE /* UIImage+Extras.m in Sources */,
+				6584887F17990306009D5AEE /* VideoFrameData.m in Sources */,
+				6584888217990323009D5AEE /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +315,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "videorecord/videorecord-Prefix.pch";
 				INFOPLIST_FILE = "videorecord/videorecord-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -274,6 +327,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "videorecord/videorecord-Prefix.pch";
 				INFOPLIST_FILE = "videorecord/videorecord-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -298,6 +352,7 @@
 				652710831798FD92008087FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
